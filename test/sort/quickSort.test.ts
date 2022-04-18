@@ -1,4 +1,4 @@
-import { quickSort } from "../../src/sort/quick";
+import { quickSort } from "../../src/sort/quickSort";
 
 describe('快速排序', () => {
     test('test case =[3,1,2,6,4]', () => {

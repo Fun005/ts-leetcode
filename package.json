@@ -1,7 +1,7 @@
 {
   "name": "ts-leetcode",
   "version": "1.0.0",
-  "description": "",
+  "description": "typescript+jest 搭建的力扣和前端工具方法实现",
   "main": "index.js",
   "scripts": {
     "build": "tsc",

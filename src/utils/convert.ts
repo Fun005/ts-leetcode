@@ -73,6 +73,12 @@ const toLinkedList = (list: number[]): ListNode | null => {
     //     temp.next = (i !== len - 1) ? { ...initListNode } : null
     //     temp = temp.next
     // }
+    let temp = result as ListNode
+    for (let i = 0; i < list.length; i++) {
+        temp.val = list[i]
+        temp.next = (i !== len - 1) ? { ...initListNode } : null
+        temp = temp.next as ListNode
+    }
     return result
 }
 

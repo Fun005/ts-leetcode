@@ -4,7 +4,8 @@
   "description": "typescript+jest 搭建的力扣和前端工具方法实现",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
+    "dev": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
+    "build": "webpack --mode=production --config ./build/webpack.config.js",
     "test": "jest",
     "test:help": "jest --help",
     "test:debug": "jest --debug",
@@ -23,18 +24,28 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.24",
     "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^27.5.1",
     "onchange": "^7.1.0",
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
+    "ts-loader": "^9.2.8",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
   }
 }

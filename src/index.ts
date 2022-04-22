@@ -9,4 +9,5 @@
 
 // import './utils/array-flatten'
 // import './utils/array-flatten-deep'
-import './utils/get-type'
+// import './utils/get-type'
+import './write-code/new'

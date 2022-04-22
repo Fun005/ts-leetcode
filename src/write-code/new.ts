@@ -37,5 +37,7 @@ class Foo {
 }
 // const f = new Foo('zhangsan', 18, 'changsha')
 const f = customNew<Foo>(Foo, 'zhangsan', 18, 'changsha')
+console.info(typeof f);
+console.info(typeof Foo);
 console.info(f);
 console.info(f.getCity());

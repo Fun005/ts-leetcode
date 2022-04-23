@@ -16,4 +16,7 @@
 // import './write-code/lazy-man'
 // import './write-code/curry'
 // import './write-code/instanceof'
-import './write-code/bind'
+// import './write-code/bind'
+// import './write-code/call-apply'
+// import './write-code/event-bus'
+import './write-code/last-recently-used'

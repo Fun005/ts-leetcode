@@ -10,6 +10,10 @@
 // import './utils/array-flatten'
 // import './utils/array-flatten-deep'
 // import './utils/get-type'
-// import './write-code/new'
 
-import './sort/bubbleSort'
+// import './sort/bubbleSort'
+// import './write-code/new'
+// import './write-code/lazy-man'
+// import './write-code/curry'
+// import './write-code/instanceof'
+import './write-code/bind'

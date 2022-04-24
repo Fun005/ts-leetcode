@@ -19,4 +19,6 @@
 // import './write-code/bind'
 // import './write-code/call-apply'
 // import './write-code/event-bus'
-import './write-code/last-recently-used'
+// import './write-code/last-recently-used'
+
+import './leetcode/twosum'

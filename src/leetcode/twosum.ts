@@ -29,3 +29,9 @@ export function twoSum2(nums: number[], target: number): number[] | undefined {
         map[nums[i]] = i;
     }
 }
+
+// // const arr = [1, 3, 5, 2, 6, 8, 7, 9]
+// const arr = [1, 2, 4, 3, 5, 8, 7, 9]
+// const target = 15
+// console.info(twoSum1(arr, target));
+// console.info(twoSum2(arr, target));

@@ -10,6 +10,7 @@
 // import './utils/array-flatten'
 // import './utils/array-flatten-deep'
 // import './utils/get-type'
+// import './utils/binary-search'
 
 // import './sort/bubbleSort'
 // import './write-code/new'
@@ -24,4 +25,9 @@
 // import './leetcode/twosum'
 // import './leetcode/array-rotate'
 // import './leetcode/bracket-match'
-import './leetcode/reverse-link-list'
+// import './leetcode/reverse-link-list'
+import './leetcode/fibonacci'
+
+
+// import './tree/binary-search-tree'
+// import './tree/binary-search-tree'

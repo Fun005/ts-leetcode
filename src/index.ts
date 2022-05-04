@@ -13,6 +13,7 @@
 // import './utils/binary-search'
 
 // import './sort/bubbleSort'
+// import './sort/quickSort'
 // import './write-code/new'
 // import './write-code/lazy-man'
 // import './write-code/curry'
@@ -28,7 +29,10 @@
 // import './leetcode/reverse-link-list'
 // import './leetcode/fibonacci'
 // import './leetcode/remove-element'
-import './leetcode/generate-parenthesis'
+// import './leetcode/generate-parenthesis'
+// import './leetcode/move-zero'
+// import './leetcode/continuous-char'
+import './leetcode/palindrome-number'
 
 
 // import './tree/binary-search-tree'

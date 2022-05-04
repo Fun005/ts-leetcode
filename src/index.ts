@@ -27,8 +27,10 @@
 // import './leetcode/bracket-match'
 // import './leetcode/reverse-link-list'
 // import './leetcode/fibonacci'
+// import './leetcode/remove-element'
+import './leetcode/generate-parenthesis'
 
 
 // import './tree/binary-search-tree'
 // import './tree/array-to-tree'
-import './tree/tree-to-array'
+// import './tree/tree-to-array'

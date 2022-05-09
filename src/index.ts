@@ -32,7 +32,8 @@
 // import './leetcode/generate-parenthesis'
 // import './leetcode/move-zero'
 // import './leetcode/continuous-char'
-import './leetcode/palindrome-number'
+// import './leetcode/palindrome-number'
+import './leetcode/longest-palindrome'
 
 
 // import './tree/binary-search-tree'

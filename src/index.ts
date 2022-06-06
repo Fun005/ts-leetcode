@@ -14,6 +14,9 @@
 
 // import './sort/bubbleSort'
 // import './sort/quickSort'
+// import './sort/selectSort'
+// import './sort/insertSort'
+
 // import './write-code/new'
 // import './write-code/lazy-man'
 // import './write-code/curry'
@@ -33,7 +36,8 @@
 // import './leetcode/move-zero'
 // import './leetcode/continuous-char'
 // import './leetcode/palindrome-number'
-import './leetcode/longest-palindrome'
+// import './leetcode/longest-palindrome'
+import './leetcode/ zigzag-conversion'
 
 
 // import './tree/binary-search-tree'

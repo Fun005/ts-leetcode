@@ -5,14 +5,9 @@
 */
 
 export function zconvert(s: string, numRows: number) {
-
     if (s === '' || numRows < 2) return s
 
-    const arr: string[] = []
-    for (let i = 0; i < numRows; i++) {
-        arr.push('')
-    }
-
+    const arr: string[] = new Array(numRows).fill('')
     let index = 0
     let flag = -1
 
@@ -31,7 +26,7 @@ export function zconvert(s: string, numRows: number) {
 // zconvert("PAYPALISHIRING", 3)
 // zconvert("PINALSIGYAHR", 4)
 
-console.info(zconvert("PAYPALISHIRING", 4));
-console.info(zconvert("PAYPALISHIRING", 3));
-console.info(zconvert("PINALSIGYAHR", 4));
-console.info(zconvert("LEETCODE", 3));
+// console.info(zconvert("PAYPALISHIRING", 4));
+// console.info(zconvert("PAYPALISHIRING", 3));
+// console.info(zconvert("PINALSIGYAHR", 4));
+// console.info(zconvert("LEETCODE", 3));

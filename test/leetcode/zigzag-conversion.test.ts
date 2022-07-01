@@ -4,7 +4,7 @@
  * @date 2022-06-06 11:09:44
 */
 
-import { zconvert } from '../../src/leetcode/ zigzag-conversion';
+import { zconvert } from '../../src/leetcode/zigzag-conversion';
 
 describe('z型变换 test case', () => {
     it('参数不符合条件', () => {

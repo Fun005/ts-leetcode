@@ -36,7 +36,7 @@ export function arrayToTree(arr: IArrayItem[]): ITreeNode | null {
             parentNode.children.push(treeNode)
         }
 
-        // 找到跟节点
+        // 找到根节点
         if (parentId == 0) {
             root = treeNode
         }

@@ -4,7 +4,7 @@
  * @date 2022-07-01 17:24:22
 */
 
-import { lengthOfLongestSubstring1, lengthOfLongestSubstring2 } from "../../src/leetcode/lengthOfLongestSubstring";
+import { lengthOfLongestSubstring1, lengthOfLongestSubstring2 } from "../../src/leetcode/length-of-longest-substring";
 
 describe('无重复字符的最长子串 test case', () => {
     it('正常情况', () => {

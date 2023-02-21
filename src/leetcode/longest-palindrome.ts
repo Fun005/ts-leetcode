@@ -1,5 +1,5 @@
 /**
- * @description 最长回文子串
+ * @description leetcode05-最长回文子串
  * @author tangc1
  * @date 2022-05-05 21:47:05
 */

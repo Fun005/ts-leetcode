@@ -22,9 +22,7 @@ export function arrayToTree(arr: IArrayItem[]): ITreeNode | null {
 
     let root = null
 
-    arr.forEach(item => {
-        const { id, name, parentId } = item
-
+    arr.forEach(({ id, name, parentId }) => {
         // 定义 tree node 并加入 map
         const treeNode = { id, name }
         idToTreeNode.set(id, treeNode)

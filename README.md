@@ -1,4 +1,4 @@
-## typescript+jest 搭建的力扣和前端工具方法实现
+## webpacl+typescript+jest 搭建的力扣和前端工具方法实现
 ### step 1
 > yarn
 
